@@ -16,7 +16,7 @@ use App\Http\Controllers\PerfilController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 Route::get('/escolher-perfil', [PerfilController::class, 'index']);
 Route::middleware([
