@@ -187,12 +187,43 @@ nav{
 }
 
 /* Card Perfil */
+.card{
+    border-style: 10px solid #7F3EDF;
+}
 .card .card-title {
     color: #212121;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
-  }
-  .card .card-text{
+}
+.card .card-text{
     text-align: justify;
+    color: #000;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6A75F5;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    align-items: center;
+}
+#escolher-perfil{
+    background-color: #6A75F5;
+}
+
+/* Button */
+
+.btn-primary {
+    background-color: #6A75F5;
+    border: 2px solid #7F3EDF;
+    border-radius: 50px;
   }
+  
+  .btn-primary:hover {
+    background-color: #7F3EDF;
+    border-color: #7F3EDF;
+  }
+  
